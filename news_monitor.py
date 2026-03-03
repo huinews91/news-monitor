@@ -14,8 +14,7 @@ sender_email = "huinews91@gmail.com"
 sender_password = "jlxraulcdqugnwox"
 
 receiver_emails = [
-    "gpdmswh@naver.com",
-    "hui0901@chungho.com"
+    "gpdmswh@naver.com"
 ]
 
 # ==============================
