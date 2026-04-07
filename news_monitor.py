@@ -190,7 +190,7 @@ def get_news(keyword,days_limit):
 
 def send_email(html_content):
 
-    today=datetime.now().strftime("%Y-%m-%d")
+    today = (datetime.utcnow() + timedelta(hours=9)).strftime("%Y-%m-%d")
 
     msg=MIMEText(html_content,"html","utf-8")
 
@@ -212,7 +212,7 @@ def send_email(html_content):
 
 def main():
 
-    today=datetime.now()
+    today = datetime.utcnow() + timedelta(hours=9)
 
     if today.weekday()==0:
         days_limit=4
