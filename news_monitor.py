@@ -20,7 +20,10 @@ receiver_emails = [
     "jane@chungho.com",
     "jjw@chungho.com",
     "hui0901@chungho.com",
-    "gpdmswh@naver.com"
+    "gpdmswh@naver.com",
+    "seohj@chungho.com",
+    "hs123@chungho.com",
+    "hwnam@chungho.com"
 ]
 
 # ==============================
